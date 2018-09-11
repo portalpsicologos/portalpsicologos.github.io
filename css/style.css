@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) {
     .navbar-toggler {
         border: 2px solid #fff;
         background-color: #f2f4f6;
@@ -10,38 +10,12 @@
     .hero-slide-content h2 {
         font-size: 36px;
     }
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-    .header_area {
-        padding: 0;
-        height: 80px;
-    }
-    .navbar-toggler {
-        border: 2px solid #fff;
-        background-color: #f2f4f6;
-        margin: 11px 0;
-    }
-    .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
-    .hero-slide-content h2 {
-        font-size: 20px;
-    }
-    .hero-slide-content h4 {
-        font-size: 18px;
-    }
-    .section-heading>h2 {
-        font-size: 24px;
-    }
-    .footer-bottom-area {
-        height: 100px;
-        text-align: center;
-        padding: 25px 0;
+    .welcome_area {
+        height: 1040px;
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) {
     .hero-slide-content h2 {
         font-size: 30px;
     }
