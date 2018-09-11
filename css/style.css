@@ -413,6 +413,11 @@ nav .nav-link:hover {
 :: 20.0 Elements Area CSS
 ----------------------- */
 
+.extra-features {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .extra-features p {
     color: #292d4f;
     font-size: 18px;
