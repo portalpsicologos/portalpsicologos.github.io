@@ -2,10 +2,6 @@
     .navbar-toggler {
         border: 2px solid #fff;
         background-color: #f2f4f6;
-        margin: 32px 0;
-    }
-    .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
     }
     .hero-slide-content h2 {
         font-size: 36px;
@@ -34,6 +30,10 @@ END RESPONSIVE
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    overflow-x: hidden !important;
 }
 
 body,
@@ -191,12 +191,6 @@ img {
 -------------------------- */
 
 .header_area {
-    left: 0;
-    position: absolute;
-    width: 100%;
-    z-index: 999;
-    top: 0;
-    padding: 0 15px;
     height: 120px;
     background-color: transparent;
     -webkit-transition-duration: 700ms;
@@ -228,9 +222,6 @@ nav .nav-link:hover {
     background-color: #25499f;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     height: 80px;
-    position: fixed;
-    top: 0;
-    z-index: 999;
 }
 
 
@@ -241,9 +232,7 @@ nav .nav-link:hover {
 .welcome_area {
     padding-top: 130px;
     padding-bottom: 200px;
-    padding-left: 50px;
-    position: relative;
-    z-index: 2;
+    padding-left: 80px;
     background-image: url(../img/welcome-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -317,9 +306,6 @@ nav .nav-link:hover {
     z-index: 2;
     border-radius: 50%;
     opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
 }
 
 .team-thumbnail>img {
@@ -342,11 +328,8 @@ nav .nav-link:hover {
     font-weight: 900;
     color: #abadbe;
     letter-spacing: 2px;
-    text-transform: uppercase;
     margin-bottom: 35px;
     display: block;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
 }
 
 .about-us {
@@ -429,11 +412,6 @@ nav .nav-link:hover {
 /* -----------------------
 :: 20.0 Elements Area CSS
 ----------------------- */
-
-.extra-features {
-    padding-right: 150px;
-    padding-left: 150px;
-}
 
 .extra-features p {
     color: #292d4f;
