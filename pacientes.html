@@ -6,7 +6,6 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
     <title>LEF - menos tr&aacute;mites, m&aacute;s seguro.</title>
@@ -15,50 +14,39 @@
     <link rel="icon" href="img/favicon.ico">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Core Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="preloader"></div>
+    </div>
 
-    <!-- ***** Header Area Start ***** -->
-    <header class="header_area clearfix">
-        <div class="container-fluid h-100">
-            <div class="row h-100">
-                <!-- Menu Area Start -->
-                <div class="col-12 h-100">
-                    <div class="menu_area h-100">
-                        <nav class="navbar h-100 navbar-expand-lg align-items-center">
-                            <!-- Logo -->
-                            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
-
-                            <!-- Menu Area -->
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mosh-navbar" aria-controls="mosh-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
-                            <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
-                                <ul class="navbar-nav animated" id="nav">
-                                    <li class="nav-item"><a class="nav-link" href="#extra-features">Beneficios</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#about-us">Acerca de nosotros</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg fixed-top header_area">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+            <span class="navbar-toggler-icon"></span>
+           </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#extra-features">Beneficios</a> </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#about-us">Acerca de nosotros</a>
+                </li>
+            </ul>
         </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
+    </nav>
 
-    <!-- ***** Welcome Area Start ***** -->
-    <section class="welcome_area section_padding_200" id="home" style="background-image: url(img/welcome-bg.png)">
-        <!-- Single Hero Slides -->
-        <div class="col-12 d-flex">
-            <div class="col-6 hero-slide-content">
+
+    <section class="welcome_area" id="home">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 hero-slide-content">
                 <h2>Encuentre su profesional de la salud a tan solo un click</h2>
                 <h3>LEF - menos tr&aacute;mites, m&aacute;s seguro.</h3>
                 <h4> Es un ecosistema colaborativo que lo conecta al profesional que usted necesita, transparentando el proceso y permitiendo agendar un horario sin tr&aacute;mites.</h4>
@@ -71,125 +59,125 @@
                     <li>Te brindamos acceso y soporte a una red de profesionales.</li>
                 </ul>
             </div>
-            <div class="col-6 hero-slide-content">
-                <div class="row">
-                    <!-- Contact Form Area -->
-                    <div class="contact-form-area">
-                        <h2>¡&Uacute;nete a LEF!</h2>
-                        <h4>Si estas interesado en el proyecto y/o si tienes alguna cr&iacute;tica o feedback</h4>
-                        <form method="POST" action="https://send.pageclip.co/nw6T7FyZjWHJfmGAW8pz0AacO4G0saek">
-                            <div class="row">
-                                <div class="col-10 col-md-4">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Ingresa tu nombre">
-                                </div>
-                                <div class="col-10 col-md-4">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Ingresa tu email">
-                                </div>
-                                <div class="col-8">
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Ingresa tu Comentario"></textarea>
-                                </div>
-                                <div class="col-10">
-                                    <button class="btn mosh-btn mt-50" type="submit">Reserva tu cupo</button>
-
-                                </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 hero-slide-content">
+                <div class="contact-form-area">
+                    <h2>¡&Uacute;nete a LEF!</h2>
+                    <h4>Si estas interesado en el proyecto y/o si tienes alguna cr&iacute;tica o feedback</h4>
+                    <form method="POST" action="https://send.pageclip.co/nw6T7FyZjWHJfmGAW8pz0AacO4G0saek">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Ingresa tu nombre">
                             </div>
-                        </form>
-                    </div>
-                </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Ingresa tu email">
+                            </div>
 
+
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Ingresa tu Comentario"></textarea>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <button class="btn contact-btn mt-50" type="submit">Reserva tu cupo</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
     </section>
     <!-- ***** Welcome Area End ***** -->
 
+
     <!-- ***** Services Area Start ***** -->
     <section id="extra-features" class="extra-features section_padding_100">
 
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2>Validamos a nuestros colaboradores</h2>
-                <h4>A tr&aacute;ves de la superintendencia de salud de Chile.</h4>
-            </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+            <h2>Validamos a nuestros colaboradores</h2>
+            <h4>A tr&aacute;ves de la superintendencia de salud de Chile.</h4>
         </div>
 
-        <div class="row section_padding_100">
+        <div class="section_padding_100">
+            <div class="row">
 
-            <!-- Single Feature Area -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="single-feature-area d-flex mb-100">
-                    <div class="feature-icon mr-30">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3>Validamos a nuestros colaboradores</h3>
-                        <p>A tr&aacute;ves de la superintendencia de salud de Chile. </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Feature Area -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="single-feature-area d-flex mb-100">
-                    <div class="feature-icon mr-30">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3>Accede a un variado catalogo de profesionales</h3>
-                        <p> Busca seg&uacute;n especialidad, cercania, previsi&oacute;n de salud o por opiniones </p>
+                <!-- Single Feature Area -->
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="d-flex mb-100">
+                        <div class="mr-30">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Validamos a nuestros colaboradores</h3>
+                            <p>A tr&aacute;ves de la superintendencia de salud de Chile. </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Single Feature Area -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="single-feature-area d-flex mb-100">
-                    <div class="feature-icon mr-30">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3>Acompañamiento personalizado a tus necesidades.</h3>
-                        <p>Un seguimiento personalizado de tu estado de salud</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Feature Area -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="single-feature-area d-flex mb-100">
-                    <div class="feature-icon mr-30">
-                        <i class="fas fa-bullhorn"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3>Busca profesionales cercanos a ti a trav&eacute;s de un mapa interactivo</h3>
-                        <p> Encuentra tu profesional en tu radio cercano a ti y seg&uacute;n tus preferencias y necesidades </p>
+                <!-- Single Feature Area -->
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="d-flex mb-100">
+                        <div class="mr-30">
+                            <i class="fas fa-address-book"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Accede a un variado catalogo de profesionales</h3>
+                            <p> Busca seg&uacute;n especialidad, cercania, previsi&oacute;n de salud o por opiniones </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Single Feature Area -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="single-feature-area d-flex mb-100">
-                    <div class="feature-icon mr-30">
-                        <i class="fas fa-briefcase-medical"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3>No mas listas y filas de espera</h3>
-                        <p> Elige y agenda al profesional que deseas de manera no presencial y en l&iacute;nea. </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Feature Area -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="single-feature-area d-flex mb-100">
-                    <div class="feature-icon mr-30">
-                        <i class="fas fa-user-md"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3> Obten tus recetas y licencias medicas en linea </h3>
-                        <p>Recibe tus documentos m&eacute;dicos desde la comodidad de tu hogar de forma segura y confidencial.</p>
+                <!-- Single Feature Area -->
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="d-flex mb-100">
+                        <div class="mr-30">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Acompañamiento personalizado a tus necesidades.</h3>
+                            <p>Un seguimiento personalizado de tu estado de salud</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
+            <div class="row">
+                <!-- Single Feature Area -->
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="d-flex mb-100">
+                        <div class="mr-30">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Busca profesionales cercanos a ti a trav&eacute;s de un mapa interactivo</h3>
+                            <p> Encuentra tu profesional en tu radio cercano a ti y seg&uacute;n tus preferencias y necesidades </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Feature Area -->
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="d-flex mb-100">
+                        <div class="mr-30">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>No mas listas y filas de espera</h3>
+                            <p> Elige y agenda al profesional que deseas de manera no presencial y en l&iacute;nea. </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Feature Area -->
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="d-flex mb-100">
+                        <div class="mr-30">
+                            <i class="fas fa-band-aid"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3> Obten tus recetas y licencias medicas en linea </h3>
+                            <p>Recibe tus documentos m&eacute;dicos desde la comodidad de tu hogar de forma segura y confidencial.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
     </section>
     <!-- ***** Services Area End ***** -->
 
@@ -197,62 +185,59 @@
 
     <!-- ***** Team Area Start ***** -->
     <section id="about-us" class="about-us section_padding_100">
-        <div>
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10">
-                    <div class="section-heading text-center">
-                        <h2>Acerca de Nosotros</h2>
-                        <h4>El 2018 nace un emprendimiento en la ciudad de Temuco a cargo de un equipo multidisciplinario con el objetivo de ofrecer un mejor acceso a la atenci&oacute;n en salud brindando una plataforma digital que conecte pacientes y profesionales
-                            de la salud en un ecosistema colaborativo. </h4>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="row">
-                        <!-- Single Team Slide -->
-                        <div class="col-4 text-center">
-                            <!-- Thumbnail -->
-                            <div class="team-thumbnail">
-                                <img src="img/sergio.jpg" alt="">
-                            </div>
-                            <!-- Meta Info -->
-                            <div class="team-meta-info">
-                                <h3>Sergio Pino</h3>
-                                <span class="title">CEO</span> <span>Co-founder</span>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque.</p>
-                            </div>
-                        </div>
-                        <!-- Single Team Slide -->
-                        <div class="col-4 text-center">
-                            <!-- Thumbnail -->
-                            <div class="team-thumbnail">
-                                <img src="img/diego.jpg" alt="">
-                            </div>
-                            <!-- Meta Info -->
-                            <div class="team-meta-info">
-                                <h4>Diego Canales</h4>
-                                <span class="title">CTO</span> <span>Co-founder</span>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque.</p>
-                            </div>
-                        </div>
-                        <!-- Single Team Slide -->
-                        <div class="col-4 text-center">
-                            <!-- Thumbnail -->
-                            <div class="team-thumbnail">
-                                <img src="img/nico.jpg" alt="">
-                            </div>
-                            <!-- Meta Info -->
-                            <div class="team-meta-info">
-                                <h4>Nicolas Rubilar</h4>
-                                <span class="title">Creative Director</span> <span>Co-founder</span>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque.</p>
-                            </div>
-                        </div>
-                    </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-8 col-sm-12 justify-content-center">
+                <div class="section-heading text-center">
+                    <h2>Acerca de Nosotros</h2>
+                    <h4>El 2018 nace un emprendimiento en la ciudad de Temuco a cargo de un equipo multidisciplinario con el objetivo de ofrecer un mejor acceso a la atenci&oacute;n en salud brindando una plataforma digital que conecte pacientes y profesionales
+                        de la salud en un ecosistema colaborativo. </h4>
                 </div>
             </div>
+        </div>
+
+        <div class="row">
+            <!-- Single Team Slide -->
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <!-- Thumbnail -->
+                <div class="team-thumbnail">
+                    <img src="img/sergio.jpg" alt="">
+                </div>
+                <!-- Meta Info -->
+                <div class="team-meta-info">
+                    <h3>Sergio Pino</h3>
+                    <span class="title">CEO</span> <span>Co-founder</span>
+                    <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque.</p>
+                </div>
+            </div>
+            <!-- Single Team Slide -->
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <!-- Thumbnail -->
+                <div class="team-thumbnail">
+                    <img src="img/diego.jpg" alt="">
+                </div>
+                <!-- Meta Info -->
+                <div class="team-meta-info">
+                    <h4>Diego Canales</h4>
+                    <span class="title">CTO</span> <span>Co-founder</span>
+                    <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque.</p>
+                </div>
+            </div>
+            <!-- Single Team Slide -->
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <!-- Thumbnail -->
+                <div class="team-thumbnail">
+                    <img src="img/nico.jpg" alt="">
+                </div>
+                <!-- Meta Info -->
+                <div class="team-meta-info">
+                    <h4>Nicolas Rubilar</h4>
+                    <span class="title">Creative Director</span> <span>Co-founder</span>
+                    <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque.</p>
+                </div>
+
+            </div>
+        </div>
     </section>
     <!-- ***** Features Area Start ***** -->
 
@@ -282,8 +267,8 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/active.js"></script>
-
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45813922-7"></script>
     <script>

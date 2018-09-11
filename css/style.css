@@ -1,9 +1,3 @@
-@media (min-width: 992px) and (max-width: 1199px) {
-    .menu_area #nav .nav-link {
-        padding: 0 10px;
-    }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar-toggler {
         border: 2px solid #fff;
@@ -12,16 +6,6 @@
     }
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
-    #mosh-navbar {
-        padding: 30px;
-        border-radius: 5px;
-        background-color: #211b31;
-        text-align: left;
-    }
-    .menu_area #nav .nav-link {
-        font-size: 14px;
-        padding: 6px 0;
     }
     .hero-slide-content h2 {
         font-size: 36px;
@@ -41,24 +25,11 @@
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
     }
-    #mosh-navbar {
-        padding: 30px;
-        border-radius: 5px;
-        background-color: #211b31;
-        text-align: left;
-    }
-    .menu_area #nav .nav-link {
-        font-size: 14px;
-        padding: 6px 0;
-    }
     .hero-slide-content h2 {
         font-size: 20px;
     }
     .hero-slide-content h4 {
         font-size: 18px;
-    }
-    .welcome_area {
-        height: 600px;
     }
     .section-heading>h2 {
         font-size: 24px;
@@ -70,16 +41,7 @@
     }
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
-    .welcome_area {
-        height: 700px;
-    }
-}
-
 @media (min-width: 576px) and (max-width: 767px) {
-    .welcome_area {
-        height: 800px;
-    }
     .hero-slide-content h2 {
         font-size: 30px;
     }
@@ -157,11 +119,6 @@ img {
     padding-bottom: 100px;
 }
 
-.section_padding_200 {
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
 .mt-50 {
     margin-top: 50px;
 }
@@ -185,10 +142,10 @@ img {
     z-index: 999999;
 }
 
-.mosh-preloader {
+.preloader {
     overflow: hidden;
-    -webkit-animation: 3000ms linear 0s normal none infinite running mosh-preloader;
-    animation: 3000ms linear 0s normal none infinite running mosh-preloader;
+    -webkit-animation: 3000ms linear 0s normal none infinite running preloader;
+    animation: 3000ms linear 0s normal none infinite running preloader;
     background-color: transparent;
     border-color: #f1f2f3 #f1f2f3 #4a7aec;
     border-radius: 50%;
@@ -202,7 +159,7 @@ img {
     z-index: 9;
 }
 
-@-webkit-keyframes mosh-preloader {
+@-webkit-keyframes preloader {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -213,7 +170,7 @@ img {
     }
 }
 
-@keyframes mosh-preloader {
+@keyframes preloader {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -234,7 +191,7 @@ img {
     font-weight: 900;
 }
 
-.mosh-btn {
+.contact-btn {
     background-color: #4a7aec;
     min-width: 150px;
     height: 54px;
@@ -249,7 +206,7 @@ img {
     transition-duration: 500ms;
 }
 
-.mosh-btn:hover {
+.contact-btn:hover {
     background-color: #1a3c8d;
     color: #fff;
 }
@@ -272,12 +229,7 @@ img {
     transition-duration: 700ms;
 }
 
-.menu_area {
-    position: relative;
-    z-index: 2;
-}
-
-.menu_area #nav .nav-link {
+nav .nav-link {
     color: #fff;
     display: block;
     font-size: 15px;
@@ -286,7 +238,7 @@ img {
     padding: 0 15px;
 }
 
-.menu_area #nav .nav-link:hover {
+nav .nav-link:hover {
     color: #4a7aec;
 }
 
@@ -313,10 +265,12 @@ img {
 -------------------------- */
 
 .welcome_area {
+    padding-top: 130px;
+    padding-bottom: 200px;
     padding-left: 50px;
     position: relative;
     z-index: 2;
-    height: 1200px;
+    background-image: url(../img/welcome-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -502,20 +456,12 @@ img {
 :: 20.0 Elements Area CSS
 ----------------------- */
 
+.extra-features {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
 .extra-features p {
     color: #292d4f;
     font-size: 18px;
 }
-
-.extra-features {
-    width: 100%;
-    padding-right: 150px;
-    padding-left: 150px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
-/* --------------------------------
-============= The End =============
----------------------------------*/
