@@ -3,17 +3,8 @@
         border: 2px solid #fff;
         background-color: #f2f4f6;
     }
-    .hero-slide-content h2 {
-        font-size: 36px;
-    }
     .welcome_area {
         height: 1040px;
-    }
-}
-
-@media (min-width: 576px) {
-    .hero-slide-content h2 {
-        font-size: 30px;
     }
 }
 
@@ -46,8 +37,19 @@ h3,
 h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #404551;
     line-height: 1.2;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
 }
 
 a,
@@ -66,7 +68,6 @@ li {
 
 p {
     font-family: 'Roboto', sans-serif;
-    color: #abadbe;
     font-size: 15px;
     font-weight: 500;
     margin-top: 0;
@@ -81,6 +82,13 @@ ul {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.brand-title {
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.8;
+    font-weight: 900;
 }
 
 .section_padding_200 {
@@ -159,12 +167,6 @@ img {
     margin-bottom: 100px;
 }
 
-.section-heading>h2 {
-    font-size: 40px;
-    margin: 0;
-    font-weight: 900;
-}
-
 .contact-btn {
     background-color: #4a7aec;
     min-width: 150px;
@@ -200,7 +202,7 @@ img {
 nav .nav-link {
     color: #fff;
     display: block;
-    font-size: 15px;
+    font-size: 20px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     padding: 0 15px;
@@ -230,7 +232,7 @@ nav .nav-link:hover {
 -------------------------- */
 
 .welcome_area {
-    padding-top: 130px;
+    padding-top: 160px;
     padding-bottom: 200px;
     padding-left: 80px;
     background-image: url(../img/welcome-bg.png);
@@ -239,33 +241,57 @@ nav .nav-link:hover {
     background-position: center center;
 }
 
-.hero-slide-content h2 {
-    font-size: 60px;
+.welcome_area h2,
+.welcome_area h3,
+.welcome_area h4,
+.welcome_area p,
+.welcome_area ul,
+.welcome_area ::placeholder,
+.welcome_area .form-control {
     color: #fff;
-    line-height: 1.8;
+    opacity: 1;
 }
 
-.hero-slide-content h3 {
-    font-size: 30px;
-    color: #fff;
-    line-height: 1.8;
-}
-
-.hero-slide-content h4 {
-    color: #fff;
+.welcome_area p,
+.welcome_area ul {
+    font-size: 24px;
     font-weight: 400;
     margin-bottom: 0;
 }
 
-.hero-slide-content li {
+.welcome_area li {
     list-style-type: circle !important;
 }
 
-.hero-slide-content ul {
-    font-size: 20px;
-    color: #fff;
-    font-weight: 400;
-    margin-bottom: 0;
+.welcome_area ul {
+    margin-top: 20px;
+}
+
+
+/* ----------------------
+:: 19.0 Contact Page CSS
+---------------------- */
+
+.contact-form-area .form-control {
+    font-size: 22px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.contact-form-area .form-control:hover,
+.contact-form-area .form-control:focus {
+    box-shadow: none;
+}
+
+.contact-form-area textarea.form-control {
+    height: 140px;
 }
 
 .footer-area {
@@ -276,7 +302,8 @@ nav .nav-link:hover {
 
 .copyright-text>p {
     margin-bottom: 0;
-    font-size: 13px;
+    font-size: 15px;
+    color: #fff;
 }
 
 .footer-bottom-area {
@@ -338,74 +365,21 @@ nav .nav-link:hover {
     z-index: 1;
 }
 
-.about-us h2 {
-    font-size: 60px;
-    color: #fff;
-}
-
-.about-us h3 {
-    font-size: 30px;
-    color: #fff;
-}
-
-.about-us h4 {
-    font-size: 20px;
+.about-us h2,
+.about-us h3,
+.about-us h4,
+.about-us span,
+.about-us p {
     color: #fff;
 }
 
 .about-us span {
     font-size: 15px;
-    color: #fff;
     display: inline-block;
 }
 
 .title {
     font-size: 25px !important;
-}
-
-
-/* ----------------------
-:: 19.0 Contact Page CSS
----------------------- */
-
-.contact-form-area h2 {
-    font-size: 40px;
-    margin-bottom: 40px;
-    font-weight: 900;
-}
-
-.contact-form-area h4 {
-    font-size: 25px;
-    margin-bottom: 10px;
-    font-weight: 400;
-}
-
-.contact-form-area .form-control {
-    font-size: 22px;
-    color: #fff !important;
-    background-color: transparent;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 2px solid #fff;
-    border-radius: 0;
-    height: 50px;
-    margin-bottom: 10px;
-    padding: 15px;
-}
-
-.contact-form-area .form-control:hover,
-.contact-form-area .form-control:focus {
-    box-shadow: none;
-}
-
-.contact-form-area textarea.form-control {
-    height: 140px;
-}
-
-.contact-form-area ::placeholder {
-    color: #fff !important;
-    opacity: 1;
 }
 
 
@@ -418,7 +392,12 @@ nav .nav-link:hover {
     padding-right: 50px;
 }
 
-.extra-features p {
+.extra-features h2,
+h3,
+p {
     color: #292d4f;
+}
+
+.extra-features p {
     font-size: 18px;
 }
