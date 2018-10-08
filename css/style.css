@@ -1,15 +1,4 @@
-@media (min-width: 768px) {
-    .navbar-toggler {
-        border: 2px solid #fff;
-        background-color: #f2f4f6;
-    }
-    .welcome_area {
-        height: 1040px;
-    }
-}
-
-
-/********************
+    /********************
 END RESPONSIVE
 *********************/
 
@@ -196,11 +185,9 @@ img {
 :: 2.0 Header Area CSS
 -------------------------- */
 
-.header_area {
-    height: 120px;
-    background-color: transparent;
-    -webkit-transition-duration: 700ms;
-    transition-duration: 700ms;
+nav {
+    background-color: #25499f !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 nav .nav-link {
@@ -214,20 +201,6 @@ nav .nav-link {
 
 nav .nav-link:hover {
     color: #4a7aec;
-}
-
-.navbar-nav {
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-
-
-/* Sticky CSS */
-
-.header_area.sticky {
-    background-color: #25499f;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-    height: 80px;
 }
 
 
@@ -405,3 +378,21 @@ p {
 .extra-features p {
     font-size: 18px;
 }
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .main {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    section {
+        padding-top: 40px !important;
+    }
+    .welcome_area {
+        padding-left: 10px;
+    }
+    .welcome_area {
+        padding-top: 20px;
+    }
